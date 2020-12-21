@@ -1,16 +1,11 @@
 def solution(s):
-    mystring = s
-    length = len(s)
-    result = []
-    if length%2==0:
-        result = mystring[length/2], mystring[length/2+1]
-        return result
+    if len(s) % 2:
+        return s[len(s) // 2]
     else:
-        result = mystring[length/2+1]
-        return result
+        return s[(len(s)//2) -1: len(s)//2+1]
 
 list = []
 sentence = input()
 list.append(sentence)
 answer = solution(sentence)
-print(answer)
+
