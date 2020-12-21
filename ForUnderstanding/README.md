@@ -13,3 +13,13 @@ a = [5,2,1,4,6]
 a.sort()
 print(a)
 ```
+>변수에 값을 받고 정렬하는 방법
+```
+# Must use "for in a range"
+myList = list() # 배열 선언
+for i in range(0:5): #5개 까지 enter로 구분 받기.
+    input...
+
+변수명.sort()
+print... 변수
+```
