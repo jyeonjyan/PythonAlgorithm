@@ -29,3 +29,7 @@ print... 변수
 res = input().split()
 print(min(res))
 ```
+>random 쓰는 방법
+```
+random 함수를 쓸 때, import할 module 이름과 file 이름이 같으면 안된다.
+```
