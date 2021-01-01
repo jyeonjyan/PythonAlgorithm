@@ -53,3 +53,14 @@ def result(a,b):
         answer += i
     return answer
 ```
+
+### 입력 받은 값이 문자열인지 판단하는 문제
+> 사용한 함수
+```
+.isdigit(): 숫자판별
+.isalpha(): 문자판별
+```
+> Fix error
+```
+else: 4, 6 이외의 값에 False 반환.!!!!
+```
