@@ -31,39 +31,40 @@ sLength/2 가 아닌, (sLength//2)-1 인덱스는 0 ~ 이니깐
 **문제설명**
 > 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 리턴하는 함수, solution을 완성하세요.  
 > 예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다.
-```
-#first I thoght
-
-def result(s):
-    i = s[0]
-    while i < s[-1]:
-        count += i
-        i+=1
-    return count
-```
+> ```
+> #first I thoght
+> 
+> def result(s):
+>     i = s[0]
+>     while i < s[-1]:
+>         count += i
+>         i+=1
+>     return count
+> ```
 > 하지만 list 로 받으면 str 과 int 형이 혼합되어 syntax 적으로 오류 발생
-```
-#solution
-
-def result(a,b):
-    answer=0
-    if a>b:
-       a,b = b,a
-    for i in range(a,b+1):
-        answer += i
-    return answer
-```
+> ```
+> #solution
+> 
+> def result(a,b):
+>     answer=0
+>     if a>b:
+>        a,b = b,a
+>     for i in range(a,b+1):
+>         answer += i
+>     return answer
+> ```
 
 ### 입력 받은 값이 문자열인지 판단하는 문제
 > 사용한 함수
-```
-.isdigit(): 숫자판별
-.isalpha(): 문자판별
-```
+> ```
+> .isdigit(): 숫자판별
+> .isalpha(): 문자판별
+> ```
 > Fix error
-```
-else: 4, 6 이외의 값에 False 반환.!!!!
-```
+> ```
+> else: 4, 6 이외의 값에 False 반환.!!!!
+> ```
+
 
 ### 입력 받은 문자열의 "p" 개수와 "y" 개수가 같으면 'Ture' 아니면 'False'
 > 사용한 함수
