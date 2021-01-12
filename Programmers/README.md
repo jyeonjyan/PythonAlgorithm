@@ -64,3 +64,17 @@ def result(a,b):
 ```
 else: 4, 6 이외의 값에 False 반환.!!!!
 ```
+
+### 입력 받은 문자열의 "p" 개수와 "y" 개수가 같으면 'Ture' 아니면 'False'
+> 사용한 함수
+> ```
+> def solution(s): 
+>   s.lower() # 대소문자 관계없이 판단하는..
+>   s.lower().count('p') # p가 포함된 문자의 수를 세는..
+>   return s.lower().count('p) == s.lower().count('y')
+> ```
+> Fix my Algorithm
+> ```
+> count #각 Count 변수를 만들어서
+> pCount += 1 #counting 이 필요가 없음
+> ```
