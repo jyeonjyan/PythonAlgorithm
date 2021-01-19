@@ -48,4 +48,4 @@
 
 **스택과 큐**
 > 스택(Stack): FILO(FirstInLastOut)선입후출, LIFO(LastInFirstOut)후입선출  
-> 큐(Queue): FIFO(FirstInFirstOut)선입선출
+> 큐(Queue): FIFO(FirstInFirstOut)선입선출 
